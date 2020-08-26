@@ -1,3 +1,3 @@
 #!/bin/sh
 
-hostname
+hostname --long
