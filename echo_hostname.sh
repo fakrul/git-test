@@ -1,3 +1,4 @@
 #!/bin/sh
 
-hostname
+hostname --long
+hostname --all-ip-address
