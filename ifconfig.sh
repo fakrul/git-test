@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#test2
+#test
 
 ifconfig
 lshw -short
