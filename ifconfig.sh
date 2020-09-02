@@ -1,4 +1,4 @@
 #!/bin/sh
-# demo
 
 ifconfig
+lshw -short
