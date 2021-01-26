@@ -13,7 +13,6 @@ pipeline {
                 }
 			}
 		}
-	}
 		stage ('disk size - shell script') {
 			steps {
                 script {
