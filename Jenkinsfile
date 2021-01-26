@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage ('Shell Scritp') {
 			steps {
-				sh (script: ifconfig.sh)
+				sh (script: ifconfig)
 			}
 		}
 	}
