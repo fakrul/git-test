@@ -6,5 +6,10 @@ pipeline {
 				echo "$GIT_BRANCH"
 			}
 		}
+		stage ('Shell Scritp') {
+			steps {
+				sh (script: 'echo Hello World')
+			}
+		}
 	}
 }
